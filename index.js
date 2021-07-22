@@ -1,7 +1,4 @@
-function callFun() {
-    alert("Do you want to see the time?");
-}
-document.write(callFun());
+
 setInterval(() => {
     d = new Date();
     htime = d.getHours();
